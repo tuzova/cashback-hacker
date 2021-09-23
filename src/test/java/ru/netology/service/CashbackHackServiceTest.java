@@ -4,9 +4,6 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-// Напишите простые автотесты (без параметризации) на основании материала следующего раздела.
-
-
 public class CashbackHackServiceTest {
     @Test
     public void shouldCalculateRemain1() {
