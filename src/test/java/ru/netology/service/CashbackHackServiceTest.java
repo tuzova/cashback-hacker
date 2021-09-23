@@ -1,11 +1,8 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-import static org.testng.Assert.assertEquals;
-
-// Напишите простые автотесты (без параметризации) на основании материала следующего раздела.
-
+import static org.junit.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
     @Test
