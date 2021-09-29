@@ -4,10 +4,8 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-// Напишите простые автотесты (без параметризации) на основании материала следующего раздела.
-
-
 public class CashbackHackServiceTest {
+
     @Test
     public void shouldCalculateRemain1() {
         CashbackHackService service = new CashbackHackService();
@@ -36,7 +34,7 @@ public class CashbackHackServiceTest {
         int amount = 1000;
 
         int actual = service.remain(amount);
-        int expected = 1000;
+        int expected = 0;
 
         assertEquals(actual, expected);
     }
